@@ -36,6 +36,8 @@ address {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 body {
@@ -55,14 +57,15 @@ body {
 
 /* -----------------HEADER------------------ */
 .header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .header-navigation {
   display: flex;
@@ -149,11 +152,11 @@ h1 {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 .main-title {
   background-color: var(--bg-color-1);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .main-title-btn {
@@ -179,12 +182,14 @@ button:hover {
 
 /* -----------MAIN------------ */
 
+.points {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .main-points {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .points-list {
@@ -218,12 +223,14 @@ button:hover {
   color: var(--second-text-color);
 }
 
+.products {
+  padding-bottom: 94px;
+}
 .main-products {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  padding-bottom: 94px;
 }
 
 .products-list {
@@ -233,14 +240,16 @@ button:hover {
 .products-item {
   margin-right: 30px;
 }
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .main-team {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .team-list {
@@ -258,7 +267,7 @@ button:hover {
 .h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
   margin-bottom: 50px;
@@ -268,7 +277,7 @@ button:hover {
   background-color: var(--bg-color-2);
 }
 .team-under {
-  padding: 30px 60px 30px 60px;
+  padding: 30px 0 30px 0;
 }
 .team-title {
   font-weight: 500;
@@ -282,7 +291,7 @@ button:hover {
 .team-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
   margin-top: 10px;
@@ -292,14 +301,14 @@ button:hover {
 /* ----------FOOTER------------ */
 footer {
   background-color: var(--bg-color-1);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-adress {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   flex-direction: column;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .contact-list {
@@ -385,6 +394,8 @@ address {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .list {
@@ -407,6 +418,8 @@ address {
 
 .header-container-1 {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header-navigation {
   display: flex;
@@ -471,17 +484,20 @@ address {
 }
 
 /* -----------MAIN------------ */
+main {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .main-kinds {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+  margin-bottom: 34px;
 }
 .kinds-list {
   display: flex;
-  padding-top: 100px;
-  margin-bottom: 50px;
 }
 
 .kinds-btn {
@@ -493,10 +509,8 @@ address {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
+  border: none;
+  padding: 6px 22px;
   margin-right: 8px;
 }
 .kinds-btn:hover,
@@ -512,7 +526,6 @@ address {
 .products-list-1 {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 
 .products-item-1:nth-of-type(3n) {
@@ -565,14 +578,14 @@ button:hover {
 /* ----------FOOTER------------ */
 footer {
   background-color: var(--bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-adress {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   flex-direction: column;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .contact-list {
