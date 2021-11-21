@@ -184,7 +184,7 @@ button:hover {
 
 .points {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 47px;
 }
 .main-points {
   display: flex;
@@ -224,6 +224,7 @@ button:hover {
 }
 
 .products {
+  padding-top: 47px;
   padding-bottom: 94px;
 }
 .main-products {
@@ -240,6 +241,11 @@ button:hover {
 .products-item {
   margin-right: 30px;
 }
+
+.products-item:last-child {
+  margin-right: 0;
+}
+
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -495,10 +501,18 @@ address {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .kinds-list {
   display: flex;
+}
+
+.kinds-item {
+  margin-right: 8px;
+}
+
+.kinds-item:last-child {
+  margin-right: 0;
 }
 
 .kinds-btn {
@@ -512,7 +526,6 @@ address {
   letter-spacing: 0.03em;
   border: none;
   padding: 6px 22px;
-  margin-right: 8px;
 }
 .kinds-btn:hover,
 .kinds-btn:active {
@@ -542,11 +555,11 @@ address {
 }
 
 .products-item-1 {
-  margin: 0 15px 30px 15px;
+  margin: 0 13px 28px 13px;
   flex-basis: calc(100% / 3 - 30px);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+  border-color: #ececec;
+  border-width: 1px;
+  border-style: solid;
 }
 
 button:active,
