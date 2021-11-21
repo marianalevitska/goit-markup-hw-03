@@ -484,7 +484,8 @@ address {
 }
 
 /* -----------MAIN------------ */
-main {
+
+.products-1 {
   padding-top: 94px;
   padding-bottom: 94px;
 }
